@@ -1,6 +1,6 @@
 import styles from "./Section.module.css";
-import carpet from "../../assets/CarpetColor2.jpg";
-import ContactButton from "../../components/ContactButton/ContactButton";
+import carpet from "../../../assets/CarpetColor2.jpg";
+import ContactButton from "../../../components/ContactButton/ContactButton";
 
 
 export default function Section2() {

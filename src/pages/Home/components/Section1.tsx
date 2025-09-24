@@ -1,5 +1,5 @@
 import styles from "./Section.module.css";
-import carpet from "../../assets/CarpetColor1.jfif";
+import carpet from "../../../assets/CarpetColor1.jfif";
 
 export default function Section1() {
   return (
