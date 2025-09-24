@@ -6,4 +6,5 @@
   border-top: 1px solid #e5e7eb;
   padding: 1.5rem 1rem;
   color: #6b7280;
+  padding-left: calc(100vw - 100%);
 }

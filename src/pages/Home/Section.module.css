@@ -1,0 +1,41 @@
+.divQuestion {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+}
+
+.spanQuestion {
+  font-family: "Gill Sans MT";
+  font-size: 6rem;
+  color: #011b1a;
+  font-weight: 700;
+  padding-left: 5rem;
+}
+
+.img1 {
+  padding-left: 3rem;
+  width: 475px;
+  height: 100%;
+}
+
+.img2 {
+  padding-left: 3rem;
+  width: 640px;
+  height: 100%;
+}
+
+.divImg {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+}
+
+.spanImg {
+  font-size: 1.5rem;
+  color: #011b1a;
+  font-weight: 400;
+  padding-left: 3rem;
+}
