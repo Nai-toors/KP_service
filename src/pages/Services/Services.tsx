@@ -1,7 +1,9 @@
+import Section1 from "./Section1";
+
 export default function Services() {
   return (
     <>
-      <h2>Страница услуг</h2>
+      <Section1 />
     </>
   );
 }

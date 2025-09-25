@@ -3,7 +3,7 @@
   top: 0;
   z-index: 100;
   background-color: white;
-  padding: 1rem 1.5rem;
+  padding: 0 1.5rem;
   border-bottom: 1px solid #e5e7eb;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   user-select: none;
@@ -12,8 +12,7 @@
 
 .nav {
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  align-items: center;
   justify-content: center;
 }
 
@@ -32,6 +31,14 @@
 }
 
 .navLink.active {
-  background-color: #3b82f6;
-  color: white;
+  color: rgb(184, 6, 6);
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+.logo {
+  width: 100px; 
+  margin-right: 2rem;
 }
