@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <title>KP SERVICE — minimal droplet logo</title>
+  <desc>Monochrome logo with three water droplets, a vertical separator, and KP SERVICE text.</desc>
+  <rect width="100%" height="100%" fill="white"/>
+  <!-- Droplets group -->
+  <g fill="#111">
+    <!-- Left small droplet -->
+    <path d="M120,140
+             C120,120 145,105 145,85
+             C145,105 170,120 170,140
+             C170,160 155,175 145,175
+             C135,175 120,160 120,140Z"/>
+    <!-- Center big droplet -->
+    <path d="M180,250
+             C180,210 240,170 240,110
+             C240,170 300,210 300,250
+             C300,295 270,325 240,325
+             C210,325 180,295 180,250Z"/>
+    <!-- Right small droplet -->
+    <path d="M305,155
+             C305,135 325,122 325,105
+             C325,122 345,135 345,155
+             C345,172 333,185 325,185
+             C317,185 305,172 305,155Z"/>
+  </g>
+  <!-- Vertical divider -->
+  <rect x="380" y="70" width="4" height="260" fill="#111" rx="2"/>
+  <!-- Text -->
+  <g fill="#111" font-family="Inter, Arial, Helvetica, sans-serif" text-rendering="geometricPrecision">
+    <text x="410" y="165" font-size="120" font-weight="700" letter-spacing="2">KP</text>
+    <text x="410" y="300" font-size="120" font-weight="700" letter-spacing="2">SERVICE</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.svg";
 
 export default function Header() {
   return (
@@ -23,14 +23,6 @@ export default function Header() {
             }
           >
             Услуги
-          </NavLink>
-          <NavLink
-            to="/carpets"
-            className={({ isActive }) =>
-              isActive ? `${styles.navLink} ${styles.active}` : styles.navLink
-            }
-          >
-            Ковры
           </NavLink>
           <NavLink
             to="/prices"
